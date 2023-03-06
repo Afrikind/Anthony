@@ -10,6 +10,7 @@
     scroll-behavior: smooth;
     color: brown;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 /* Global Variable */
@@ -176,10 +177,11 @@ main{
 /* ---=== HOME SECTION ===---*/
 
 #home{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-image: url(Images/Tony4.jpg);
     background-image: url(./image/small);
+    background-color: black;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -229,7 +231,7 @@ main{
     font-size: xx-large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: white;
 }
 .Hire{
     font-size: larger;
