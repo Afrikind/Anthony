@@ -863,7 +863,7 @@ margin-bottom: 10px;
 }
 #contact .contact-row .contact-left .icon-box{
     display: flex;
-    gap:15%;
+    gap: 15%;
     align-items: center;
     margin: 30px 0;
 }
@@ -894,8 +894,8 @@ margin-bottom: 10px;
 }
 
 #contact .contact-row .contact-right{
-    flex-basis: 60%;
-    min-width: 60%;
+    flex-basis: 100%;
+    min-width: 100%;
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     border-radius: 4px;
