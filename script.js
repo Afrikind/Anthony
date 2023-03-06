@@ -7,7 +7,6 @@
 //     this.classList.toggle('fa-xmark')
 // });
 
-
 //Typing Effect
 
 let typed = new Typed('.auto-input',{
