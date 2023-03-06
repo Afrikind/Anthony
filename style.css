@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
     color: brown;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: white;
 }
 
 /* Global Variable */
@@ -125,7 +125,7 @@ header .footer p a{
      font-size: 20px;
      width: 40px;
      height: 40px;
-     color: white;
+     color: black;
      background-color: var(--textColor);
      text-align: center;
      line-height: 42px;
@@ -181,7 +181,7 @@ main{
     width: 100%;
     background-image: url(Images/Tony4.jpg);
     background-image: url(./image/small);
-    background-color: black;
+    background-color: white;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -207,7 +207,7 @@ main{
 }
 #home .home-row h1{
     font-size: 30px;
-    color: white;
+    color: black;
     font-weight: 600;
     letter-spacing: -1px;
     margin-bottom: 10px;
@@ -217,7 +217,7 @@ main{
     color: var(--themeColor);
 }
 #home .home-row p{
-    color: whitesmoke;
+    color: black;
     font-size: 25px;
     font-weight: 600;
     line-height: 50px;
@@ -231,7 +231,7 @@ main{
     font-size: xx-large;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
 }
 .Hire{
     font-size: larger;
@@ -240,7 +240,7 @@ main{
     text-align: center;
     cursor: pointer;
     align-items: center;
-    color: white;
+    color: black;
     margin: 1.5em 0;
 }
 .Hire:hover{
@@ -249,7 +249,7 @@ main{
 .Download_CV {
     padding: 4px ;
     margin: 0.5em 0;
-    color: white;
+    color: black;
     font-weight: bolder;
     outline: none;
     text-align: center;
@@ -379,7 +379,6 @@ margin-bottom: 10px;
 @media only screen and (max-width: 830px){
     #about{
         padding: 50px 10px;
-        flex-wrap: wrap;
     }
     #about .divider ~ p{
         font-size: 12px;
@@ -420,7 +419,7 @@ margin-bottom: 10px;
 
 @media only screen and (max-width: 400px) {
     #about .about-col .img-col img{
-        width: 90%;
+        width: 100%;
     }
 }
 /* === About section end === */
@@ -855,7 +854,7 @@ margin-bottom: 10px;
     width: 100%;
 }
 #contact .contact-row .contact-left{
-    flex-basis: 40%;
+    flex-basis: 100%;
     min-width: 40%;
     background-color: white;
     box-shadow: 0, 0 20px rgba(0, 0, 0, 20%);
