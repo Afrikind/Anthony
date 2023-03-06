@@ -9,10 +9,11 @@
     font-family: 'Poppings', sans-serif;
     scroll-behavior: smooth;
     color: brown;
+    font-size: large;
 }
 
 /* Global Variable */
-.root{
+:root{
     --sideBGcolor: #040b14;
     --themeColor: #00A78E;
     --iconBGColor: #2C2F3F;
@@ -68,13 +69,13 @@ header .profile .social-icons a:hover{
 }
 
 /* -- Navbar -- */
-header nav{
+header .div{
     margin-top: 30px ;
 }
-header nav ul li{
+header .div ul li{
     list-style: none;
 }
-header nav ul li a{
+header .div ul li a{
     display: inline-block;
     text-decoration: none;
     padding: 7px 10px;
@@ -85,15 +86,15 @@ header nav ul li a{
     letter-spacing: 0.7px;
 }
 
-header nav ul li a i{
+header .div ul li a i{
     margin-right: 10px;
     font-size: 20px;
     transition: 0.4s;
 }
-header nav ul li a:hover i{
+header .div ul li a:hover i{
     color: var(--themeColor);
 }
-header nav ul li .active i{
+header .div ul li .active i{
     color: var(--themeColor);
 }
 
@@ -120,7 +121,7 @@ header .footer p a{
     position: fixed;
     top: 25px;
     right: 25px;
-     font-size: 20px;
+     font-size: 40px;
      width: 40px;
      height: 40px;
      color: black;
@@ -147,7 +148,7 @@ header .footer p a{
     }
 }
 
-/* Header toggle*/
+/* Header toggle */
 .mobile-nav-active header{
     left: 0;
 }
